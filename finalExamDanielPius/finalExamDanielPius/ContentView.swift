@@ -10,14 +10,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //@StateObject var vm = MyViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        NavigationStack{
+            VStack{
+                Text("List of Products")
+                
+                
+                List{
+                    
+                    
+                    
+                }
+                
+        
+                
+            }.navigationTitle("Product View")
+               
+                
+        } 
     }
 }
 
